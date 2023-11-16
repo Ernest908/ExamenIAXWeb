@@ -1,7 +1,5 @@
 site_name: My Docs
-  run: |
-          mkdocs gh-deploy --force
-          mkdocs --version
+
 
 theme:
   name: material
