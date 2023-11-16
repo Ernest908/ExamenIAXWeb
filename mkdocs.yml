@@ -1,5 +1,7 @@
 site_name: My Docs
-site_url: https://ernest908.github.io/ExamenIAXWeb/
+  run: |
+          mkdocs gh-deploy --force
+          mkdocs --version
 
 theme:
   name: material
